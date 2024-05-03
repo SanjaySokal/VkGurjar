@@ -1,0 +1,140 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 300px;
+  margin: 0 auto;
+}
+
+header {
+  background-color: #8a2be2;
+  padding: 10px 0;
+}
+
+header .nav-links {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header .nav-links a,
+.add-today {
+  display: inline-block;
+  text-decoration: none;
+  color: #fff;
+  font-weight: 500;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  line-height: 50px;
+  border-radius: 50%;
+  background-color: #4a89dc;
+}
+
+.margin-auto {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding-bottom: 20px;
+}
+
+.margin-auto .add-today {
+  display: block;
+  margin: 0 auto;
+}
+
+header .nav-links a:hover,
+header .nav-links a:focus,
+.add-today:hover,
+.add-today:focus {
+  background-color: #d42d2d;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -10px;
+}
+
+.col-md-12 {
+  padding: 0 10px;
+  flex: 0 0 100%;
+}
+
+section {
+  padding: 30px 0;
+}
+
+form.home {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 25px;
+}
+
+form.home input {
+  width: 80%;
+  height: 50px;
+  border: none;
+  outline: none;
+  box-shadow: 0 0 5px rgba(0, 0, 0, .3);
+  padding: 0 20px;
+  font-size: 18px;
+  border-radius: 10px;
+}
+
+form.home button {
+  display: inline-block;
+  text-decoration: none;
+  color: #fff;
+  font-weight: 500;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  line-height: 50px;
+  border-radius: 50%;
+  background-color: #4a89dc;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+form.home button:hover,
+form.home button:focus {
+  background-color: #d42d2d;
+}
+
+table {
+  border-color: #d42d2d;
+  border-radius: 5px;
+}
+
+table td,
+th {
+  padding: 3px 5px;
+  text-align: center;
+}
+
+.home.login {
+  flex-direction: column;
+}
+
+.home.login input {
+  margin-bottom: 15px;
+}
+
+.home.login button {
+  width: auto;
+  height: auto;
+  line-height: normal;
+  margin: 0;
+  border-radius: 10px;
+  padding: 12px 22px;
+  font-size: 17px;
+}
